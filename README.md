@@ -3,7 +3,7 @@ Apply adidas origins snickers using [itchat api](https://github.com/littlecoders
 
 # Usage
 
-  $pip3 install itchat
-  $python test.py
+    $pip3 install itchat
+    $python test.py
 
 Then scan QR.png to login Wechat Web.
