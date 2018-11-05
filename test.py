@@ -50,7 +50,7 @@ def InputS2(s2):
 
 
 
-@itchat.msg_register(itchat.content.TEXT)
+@itchat.msg_register(itchat.content.TEXT, isMpChat=True)
 def text_reply(msg):
     flag = 0
     try:
