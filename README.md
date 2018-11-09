@@ -10,4 +10,4 @@ Edit the configuration file `ID.config`;
 Then scan QR.png to login Wechat Web. This script aims to auto-reply authentication information like this:
 ![demo](demo.jpg)
 
-If you do not want to stay logged in, delete `hotReload=True` in `test.py #69`. See more [info](https://itchat.readthedocs.io/zh/latest/)
+If you do not want to stay logged in, delete `hotReload=True` in `main.py #94`. See more [info](https://itchat.readthedocs.io/zh/latest/)
