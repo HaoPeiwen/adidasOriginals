@@ -1,7 +1,7 @@
 # Adidas Originals Wechat Applying
 Apply `Adidas Original` snickers automatically using [`@Wechat` itchat api](https://github.com/littlecodersh/itchat)
 
-# Usage
+## Usage
 Edit the configuration file `ID.config`:
 
     # ID.config(UTF-8)
@@ -20,4 +20,9 @@ Make sure both `main.py` and `ID.config` are in the same folder, then:
 Then scan QR.png to login Wechat Web. This script aims to auto-reply authentication information like this:
 ![demo](demo.jpg)
 
-If you do not want to stay logged in, delete `hotReload=True` in `main.py #94`. See more [info](https://itchat.readthedocs.io/zh/latest/)
+If you do not want to stay logged in, delete `hotReload=True` in `main.py # 83`. See more [info](https://itchat.readthedocs.io/zh/latest/)
+
+## Multiwindowing
+
+You can simply copy the folder with `ID.config` and `main.py` for each wechat account.
+    
