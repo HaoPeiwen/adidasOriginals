@@ -48,12 +48,6 @@ def InputS2(s2):
     ans = ans[:-1]
     return ans
 
-def testsub(s):
-    s = re.search(u"本次",s).group()
-    return '测试公众号是否监听'
-
-
-
 @itchat.msg_register(itchat.content.TEXT, isMpChat=True)
 def text_reply(msg):
     flag = 0
@@ -64,11 +58,6 @@ def text_reply(msg):
         pass
     try:
         ans = InputS2(msg.text)
-        flag =1
-    except:
-        pass
-    try:
-        ans = testsub(msg.text)
         flag =1
     except:
         pass
