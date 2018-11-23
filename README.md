@@ -1,5 +1,5 @@
 # Adidas Originals Wechat Applying
-Apply `Adidas Original` sneackers automatically using [`@Wechat` itchat api](https://github.com/littlecodersh/itchat)
+Apply `Adidas Original` sneakers automatically using [`@Wechat itchat`](https://github.com/littlecodersh/itchat)
 
 ## Usage
 Edit the configuration file `ID.config`:
