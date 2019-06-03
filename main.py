@@ -45,9 +45,17 @@ def Trans(matched):
     else:
         return value
 
+def chengchu(s):
+    s = s.replace('×','*')
+    s = s.replace('÷','/')
+    return s
+
 def Math(text):
     s = re.search(u"问题：[\S]+=？",text).group()[3:-2]
     m =re.sub(u"(?P<value>[\u4e00-\u9fa5]+)",Trans,s)
+    
+    m = chengchu(m)
+    print(m)
     return str(int(eval(m)))
 
 
