@@ -20,7 +20,7 @@ config = ConfigParser()
 config.read('ID.config', encoding='UTF-8') 
 
 d_id = [config['ID']['Size'], config['ID']['Id'], config['ID']['Phone']]
-
+city_conf = config['City']['city']
 
 def is_number(s):
     try:
@@ -95,7 +95,7 @@ def text_reply(msg):
     except:
         pass
     try:
-        ans = YEEZY_repeat(msg.text, '上海')
+        ans = YEEZY_repeat(msg.text, city_conf)
         flag =1
     except:
         pass
@@ -117,7 +117,7 @@ def reply(msg):
     except:
         pass
     try:
-        ans = YEEZY_repeat(msg.text, '上海')
+        ans = YEEZY_repeat(msg.text, city_conf)
         flag =1
     except:
         pass
